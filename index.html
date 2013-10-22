@@ -1,9 +1,57 @@
 <!doctype>
 <html>
-	<head>
-		<title>ToddyCat</title>
-	</head>
-	<body>
-		<p>Landing Page</p>
-	</body>
+
+<head>
+    <title>ToddyCat</title>
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/application.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">ToddyCat</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a href="/">Sign out</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+
+        <!-- Begin page content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>Welcome to ToddyCat!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <p class="text-muted credit">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Use</a>
+                &copy; 2013 by Toddycat.
+        </div>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+
 </html>
